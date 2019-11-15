@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		
+			<!-- 	model.addAttribute("out_trade_no", out_trade_no);
+			model.addAttribute("trade_no", trade_no);
+			model.addAttribute("total_amount", total_amount); -->
+			
+			<h2>结算页面</h2>
+			<h3 th:text="'订单编号:'+${out_trade_no}"></h3>
+			<h3 th:text="'支付宝交易单号:'+${trade_no}"></h3>
+			<h3 th:text="'付款金额:'+${total_amount}"></h3>
+			
+</body>
+</html>
